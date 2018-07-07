@@ -1,0 +1,37 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">stag_page_tagline</custom-field>
+		<custom-field action="copy">stag_portfolio_columns</custom-field>
+		<custom-field action="copy">stag_masonry_grid_columns</custom-field>
+		<custom-field action="copy">stag_portfolio_navigation</custom-field>
+		<custom-field action="copy">stag_blog_layout</custom-field>
+		<custom-field action="copy">stag_external_video_block</custom-field>
+		<custom-field action="copy">stag_portf_icon</custom-field>
+		<custom-field action="copy">stag_portf_thumbnail</custom-field>
+		<custom-field action="copy">stag_portf_link</custom-field>
+		<custom-field action="copy">stag_portf_video</custom-field>
+		<custom-field action="copy">stag_portf_gallery</custom-field>
+		<custom-field action="copy">stag_portf_thumbnail</custom-field>
+		<custom-field action="copy">stag_sidebar_position</custom-field>
+		<custom-field action="copy">stag_all_sidebars</custom-field>
+	</custom-fields>
+	
+	<custom-types>
+			<custom-type translate="1">portfolio</custom-type>
+	</custom-types>	
+
+	<taxonomies>
+		<taxonomy translate="1">portfolio_cats</taxonomy>
+	</taxonomies>
+
+
+	<admin-texts>
+		<key name="stag_data">
+			<key name="stag_copyright_textarea" />
+			<key name="stag_portfolio_back_link" />
+			<key name="stag_custom_logo" />
+		</key>
+	</admin-texts>
+</wpml-config>
+
+

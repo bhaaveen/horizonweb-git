@@ -1,0 +1,222 @@
+.column,
+.columns {
+  float: right;
+  margin-left: 0;
+  margin-right: 4%;
+}
+
+.bm {
+  left: 0;
+  right: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-navigation {
+    float: left;
+    margin-right: 0;
+    margin-left: 8rem;
+  }
+  .main-navigation ul {
+    padding-right: 0;
+    float: left;
+  }
+  .main-navigation ul li {
+    float: right;
+    margin-left: 0;
+    margin-right: 5rem;
+  }
+  .main-navigation ul ul li {
+    margin-right: 0;
+  }
+  .main-navigation ul ul ul, .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+    left: auto;
+    right: 100%;
+  }
+  .main-navigation ul#primary-menu > li.menu-item-has-children {
+    margin-right: 0;
+    margin-left: 1.6rem;
+  }
+  .main-navigation ul#primary-menu > li.menu-item-has-children:after {
+    content: none;
+  }
+  .main-navigation ul#primary-menu > li.menu-item-has-children:before {
+    content: "\f107";
+    font-family: fontawesome;
+    display: block;
+    position: absolute;
+    left: -1.6rem;
+    top: 10px;
+  }
+  .main-navigation.classic-menu {
+    margin-left: 0;
+  }
+  .main-navigation ul ul {
+    float: right;
+  }
+  .main-navigation ul li ul li.menu-item-has-children:after {
+    content: none;
+  }
+  .main-navigation ul li ul li.menu-item-has-children:before {
+    content: "\f104";
+    font-family: fontawesome;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    height: 100%;
+    margin-top: -14px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .main-navigation ul#primary-menu > li.menu-item-has-children {
+    margin-right: 0;
+  }
+}
+
+.main-navigation ul ul, .main-navigation ul ul ul {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.upbtn {
+  left: 20px;
+  right: auto;
+}
+
+.flags_language_selector {
+  float: left;
+  margin-right: 5rem;
+  margin-left: 0;
+}
+
+.is-nav-desktop div[class*="-container"] {
+  float: left;
+}
+
+.site-footer #social {
+  padding-right: 0;
+}
+
+.wrap ul.wrap-nav ul {
+  padding-right: 0;
+}
+
+@media (min-width: 550px) {
+  .column:first-child, .columns:first-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9 {
+    float: right;
+  }
+}
+
+.dt-services-grid .delicious-service-hover .delicious-service-title-hover {
+  padding-left: 0;
+  padding-right: 60px;
+  text-align: right;
+}
+
+.dt-services-grid .delicious-service-hover .delicious-service-title-hover:after {
+  float: right;
+}
+
+.dt-services-grid .delicious-service-hover p {
+  text-align: right;
+  clear: both;
+}
+
+.dt-button {
+  margin: 0 0 20px 7px;
+}
+
+.dt-button.icon-left i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.page-title-wrapper .search-field {
+  float: left;
+}
+
+.widget-area .tagcloud a {
+  float: right;
+  margin: 0 0 7px 8px;
+}
+
+html .mc4wp-form .form-wrapper input[type="email"] {
+  border-left: none;
+  border-right: 1px solid #d1d1d1;
+}
+
+.align-left h2.grid-title {
+  float: right;
+}
+
+.grid-meta.align-left #filters {
+  float: left;
+}
+
+.grid-meta.align-left #filters a {
+  margin: 0 14px 5px 0px;
+}
+
+.portfolio {
+  padding-right: 0;
+}
+
+.contact-info li span {
+  margin-left: 3rem;
+  margin-right: 0;
+}
+
+.contact-info {
+  padding-right: 0;
+}
+
+.dt-blog-carousel .post-thumbnail .post-icon {
+  left: 0;
+  right: auto;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea {
+  text-align: right;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+  float: right;
+  text-align: right;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+  float: left;
+  text-align: left;
+}
+
+.author-bio img {
+  right: 0;
+  left: auto;
+}
+
+.author-bio .author-description {
+  margin-left: 0;
+  margin-right: 100px;
+}
+
+ol, ul {
+  padding-right: 0;
+}
+
+ol ol, ol ul {
+  margin: 1.5rem 3rem 1.5rem 0;
+}
+
+ol.comment-list, ol.comment-list ol {
+  list-style: none;
+}
